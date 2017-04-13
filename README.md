@@ -25,7 +25,7 @@ This library can be used to parse most models from the following archives:
  * [POST](http://users.iems.northwestern.edu/~jrbirge/html/dholmes/post.html)
  * [Andy Felt's collection](http://www4.uwsp.edu/math/afelt/slptestset/download.html).
 
-# Installation
+## Installation
 
 ~~~~
 >> git clone https://github.com/robin-vjc/smps
