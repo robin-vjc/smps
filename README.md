@@ -11,7 +11,7 @@ processing of large instances. Scenario matrices are generated lazily.
 [SMPS](http://myweb.dal.ca/gassmann/smps2.htm) is a file format for distributing **Stochastic Multistage Optimization Models**. 
 It is an extension of the [MPS file format](https://en.wikipedia.org/wiki/MPS_(format)), which is used to store 
 optimization models. 
-{: .text-justify}
+
 
 There is a [parser written in FORTRAN](http://myweb.dal.ca/gassmann/inputs.htm), but I was unable to make it work in my 
 Python environment. [Pyomo](http://www.pyomo.org/) has some code to write SMPS files, but not to parse them (see also 
@@ -19,8 +19,20 @@ Python environment. [Pyomo](http://www.pyomo.org/) has some code to write SMPS f
 I decided to write a parser script from scratch. It can be used to parse most models from archives such as 
 [SIPLIB](http://www2.isye.gatech.edu/~sahmed/siplib/), [POST](http://users.iems.northwestern.edu/~jrbirge/html/dholmes/post.html)
  and [Andy Felt's collection](http://www4.uwsp.edu/math/afelt/slptestset/download.html).
-{: .text-justify}
- 
+
+
+# Installation
+
+~~~~
+>> git clone https://github.com/robin-vjc/smps
+>> cd smps/
+>> pip install -e .
+~~~~
+
+Optionally, run tests suite
+~~~~
+>> py.test
+~~~~
 
 ## Example usage
 
@@ -77,4 +89,3 @@ it does not currently support `BLOCK-INDEP` mode.
 
 Also, while standards are set in the SMPS documentation, certain models archives do not always follow 
 them, which may cause parsing problems. Please report them as bugs in this case.
-{: .text-justify}
