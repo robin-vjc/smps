@@ -1,0 +1,27 @@
+# General ignores
+*.pyc
+.idea
+*.iml
+.cache
+.tox
+out
+gen
+*.h5
+*.csv
+*.log
+notebooks/.ipynb_checkpoints
+*.mod
+*.o
+*.zip
+dmp.egg-info
+
+
+# Planning datasets; include them all:
+!dmp/data/planning_datasets/*
+# ... except for:
+brockman4_composites-bs4le2012comps_mapfile_export.csv
+brockman4_rtcma_block_models-MAS15_bs4_gs_bs4m_201509_smoothkernel-GsStd-BlockModel-bmirregcsv-AllDataRTSpec.csv
+paraburdoo_ExplorationHolesNonvertical_(paradec_94e_st).csv
+westang_geology-WAA_subset_fusion_V2.csv
+# Transport datasets
+!dmp/data/transport_datasets/*
