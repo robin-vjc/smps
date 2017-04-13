@@ -16,10 +16,14 @@ optimization models.
 There is a [parser written in FORTRAN](http://myweb.dal.ca/gassmann/inputs.htm), but I was unable to make it work in my 
 Python environment. [Pyomo](http://www.pyomo.org/) has some code to write SMPS files, but not to parse them (see also 
 [my request](https://groups.google.com/forum/#!searchin/pyomo-forum/smps/pyomo-forum/jfRD7BK4Mt4/GQqbpAzaBAAJ) on their forum). 
-I decided to write a parser script from scratch. It can be used to parse most models from archives such as 
-[SIPLIB](http://www2.isye.gatech.edu/~sahmed/siplib/), [POST](http://users.iems.northwestern.edu/~jrbirge/html/dholmes/post.html)
- and [Andy Felt's collection](http://www4.uwsp.edu/math/afelt/slptestset/download.html).
+I decided to write a parser script from scratch. 
 
+#### Datasets archives:
+
+This library can be used to parse most models from the following archives:
+ * [SIPLIB](http://www2.isye.gatech.edu/~sahmed/siplib/)
+ * [POST](http://users.iems.northwestern.edu/~jrbirge/html/dholmes/post.html)
+ * [Andy Felt's collection](http://www4.uwsp.edu/math/afelt/slptestset/download.html).
 
 # Installation
 
