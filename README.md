@@ -5,6 +5,21 @@ Parse datasets stored in the SMPS file format.
 Particular emphasis has been put in maintaining sparse representation of the data, to allow
 processing of large instances. Scenario matrices are generated lazily.
 
+## Installation
+
+Requires `gurobipy`. Academic users can obtain free licenses [here](http://www.gurobi.com/academia/for-universities%5D). 
+
+~~~~
+>> git clone https://github.com/robin-vjc/smps
+>> cd smps/
+>> pip install -e .
+~~~~
+
+Optionally, run tests suite
+~~~~
+>> py.test
+~~~~
+
 
 ## Introduction
 
@@ -24,19 +39,6 @@ This library can be used to parse most models from the following archives:
  * [SIPLIB](http://www2.isye.gatech.edu/~sahmed/siplib/)
  * [POST](http://users.iems.northwestern.edu/~jrbirge/html/dholmes/post.html)
  * [Andy Felt's collection](http://www4.uwsp.edu/math/afelt/slptestset/download.html).
-
-## Installation
-
-~~~~
->> git clone https://github.com/robin-vjc/smps
->> cd smps/
->> pip install -e .
-~~~~
-
-Optionally, run tests suite
-~~~~
->> py.test
-~~~~
 
 ## Example usage
 
