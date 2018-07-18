@@ -95,3 +95,18 @@ it does not currently support `BLOCK-INDEP` mode.
 
 Also, while standards are set in the SMPS documentation, certain models archives do not always follow 
 them, which may cause parsing problems. Please report them as bugs in this case.
+
+## Cite
+
+~~~~
+@article{Vujanic2018,
+	title={Dual Decomposition of Stochastic Integer Programs: New Results and Experimental Comparison of Solution Methods},
+	author={Vujanic, Robin and Esfahani, Peyman Mohajerin},
+	journal={TO BE COMPLETED},
+	volume={TO BE COMPLETED},
+	number={TO BE COMPLETED},
+	pages={TO BE COMPLETED},
+	year={2018},
+	publisher={TO BE COMPLETED}
+}
+~~~~
