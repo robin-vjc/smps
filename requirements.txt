@@ -2,4 +2,4 @@ decorator==4.0.11
 gurobipy==7.0.2
 networkx==1.11
 numpy==1.12.1
-scipy==0.19.0
+scipy==1.10.0
